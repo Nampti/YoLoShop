@@ -1,0 +1,39 @@
+.footer {
+    padding: 70px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 1.1rem;
+
+    &__logo {
+        height: 38px;
+    }
+
+    &__about {
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+
+    &__content {
+        p {
+            margin-bottom: 1.25rem;
+        }
+    }
+
+    a:hover {
+        color: #4267b2;
+    }
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1620px;
+    padding: 0 50px;
+    margin: auto;
+}
